@@ -1,0 +1,28 @@
+{
+  "name": "multer-fdfs-storage",
+  "version": "1.0.0",
+  "description": "multer storage for fastdfs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ymyang/multer-fdfs-storage.git"
+  },
+  "keywords": [
+    "multer",
+    "fastdfs",
+    "fdfs",
+    "storage"
+  ],
+  "author": "ymyang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ymyang/multer-fdfs-storage/issues"
+  },
+  "homepage": "https://github.com/ymyang/multer-fdfs-storage#readme",
+  "dependencies": {
+    "fdfs": "^0.8.1"
+  }
+}
