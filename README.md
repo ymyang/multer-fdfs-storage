@@ -44,6 +44,18 @@ var upload = multer({
 });
 
 // 上传文件
-router.post('/upload/file', upload.single('file'), UploadCtrl.uploadFile);
+router.post('/upload/file', upload.single('file'), _upload);
+
+function _upload(req, res) {
+    // param.fileSize id required
+    var param = req.body.param ? JSON.parse(req.body.param);
+    
+    // file info
+    param.file = req.file;
+
+    res.json(req.file);
+
+    // TODO
+}
 
 ```
