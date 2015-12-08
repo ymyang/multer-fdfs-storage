@@ -15,7 +15,6 @@ var express = require('express');
 var multer = require('multer');
 var FdfsStorage = require('multer-fdfs-storage');
 var FdfsClient = require('fdfs');
-var UploadCtrl = require('../controller/UploadCtrl.js');
 
 var router = module.exports = express.Router();
 
