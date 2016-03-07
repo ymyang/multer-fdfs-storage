@@ -1,6 +1,6 @@
 {
   "name": "multer-fdfs-storage",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "multer storage for fastdfs",
   "main": "index.js",
   "scripts": {
